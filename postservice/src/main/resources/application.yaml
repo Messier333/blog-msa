@@ -1,0 +1,13 @@
+server:
+  port: 8081
+spring:
+  application:
+    name: postservice
+  datasource:
+    url: jdbc:h2:mem:blog-post
+    username: sa
+    password:
+  jpa:
+    hibernate:
+      ddl-auto: update
+    show-sql: true
