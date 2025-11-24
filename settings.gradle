@@ -1,0 +1,5 @@
+rootProject.name = "blog"
+
+include("gateway")
+include("postservice")
+include("authservice")
