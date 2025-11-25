@@ -1,0 +1,15 @@
+# Gradle
+.gradle/
+build/
+
+# IntelliJ / IDE
+.idea/
+*.iml
+
+# H2 DB 파일
+*.mv.db
+*.log.db
+
+# OS
+.DS_Store
+Thumbs.db
