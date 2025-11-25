@@ -1,0 +1,45 @@
+:root {
+    --bg-color: #ffffff;
+    --text-color: #000000;
+    --card-bg: #ffffff;
+    --card-border: #e5e5e5;
+}
+
+body.dark {
+    --bg-color: #121212;
+    --text-color: #e0e0e0;
+    --card-bg: #1e1e1e;
+    --card-border: #333333;
+}
+
+body {
+    background-color: var(--bg-color);
+    color: var(--text-color);
+    transition: all 0.25s ease;
+}
+
+.card {
+    background-color: var(--card-bg);
+    border-color: var(--card-border);
+    transition: all 0.25s ease;
+}
+
+.list-container {
+    max-height: 600px;
+    overflow-y: auto;
+}
+
+.table {
+    color: var(--text-color);
+}
+
+.theme-toggle-btn {
+    position: absolute;
+    top: 20px;
+    right: 20px;
+}
+
+a {
+    text-decoration: none;
+    color: var(--text-color);
+}

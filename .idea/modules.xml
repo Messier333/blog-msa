@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/authservice/blog.authservice.main.iml" filepath="$PROJECT_DIR$/.idea/modules/authservice/blog.authservice.main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/front/blog.front.main.iml" filepath="$PROJECT_DIR$/.idea/modules/front/blog.front.main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/gateway/blog.gateway.main.iml" filepath="$PROJECT_DIR$/.idea/modules/gateway/blog.gateway.main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/postservice/blog.postservice.main.iml" filepath="$PROJECT_DIR$/.idea/modules/postservice/blog.postservice.main.iml" />
+    </modules>
+  </component>
+</project>

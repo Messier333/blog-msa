@@ -5,6 +5,7 @@ import com.blog.postservice.service.PostService;
 import lombok.RequiredArgsConstructor;
 import org.springframework.web.bind.annotation.*;
 
+import java.time.LocalDateTime;
 import java.util.List;
 
 @RestController
@@ -25,6 +26,7 @@ public class PostController {
 
     @PostMapping
     public Post create(@RequestBody Post post) {
+        post.setPostTime(LocalDateTime.now());
         return postService.save(post);
     }
 
