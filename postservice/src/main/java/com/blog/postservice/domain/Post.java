@@ -25,7 +25,7 @@ public class Post {
     @Column(nullable = false)
     private String author;
     @Column(nullable = false)
-    private LocalDateTime postTime;
+    private LocalDateTime createdAt;
     @Column(nullable = false)
     private String Category;
 }

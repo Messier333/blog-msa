@@ -3,8 +3,18 @@ server:
 spring:
   application:
     name: front
+  web:
+    resources:
+      cache:
+        periods: 0
+      chain:
+        cache: false
   devtools:
     restart:
       enabled: true
     livereload:
       enabled: true
+
+blog:
+  api:
+    post-url: http://localhost:8083/posts

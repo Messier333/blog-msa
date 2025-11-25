@@ -26,7 +26,7 @@ public class PostController {
 
     @PostMapping
     public Post create(@RequestBody Post post) {
-        post.setPostTime(LocalDateTime.now());
+        post.setCreatedAt(LocalDateTime.now());
         return postService.save(post);
     }
 
